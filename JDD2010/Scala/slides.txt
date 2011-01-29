@@ -1,0 +1,208 @@
+Basics
+(*) Intro
+    --Get some syntax under your belt
+    --Understand basic rules (identifiers, flow control, etc)
+    --Learn the Scala type system
+    --Be able to "script" Scala
+(*) Hello, world (hello.scala)
+    --Notice we can use Java libraries (System.out)
+    --Notice we can also use Scala libraries (Console)
+    --The Scala syntax is similar, but not exactly, Java
+    --scala REPL can save compiled script to .jar file for repeated use
+(*) If/else (if.scala)
+    --"if/else" is an expression, not a statement
+    --return value type must be consistent
+    --"val" introduces new name/value binding
+    --notice how compiler infers value type of the binding
+(*) For (for.scala)
+    --"for" is actually a "comprehension", not just a loop
+    --"for" elements can be either a generator or a filter
+    --generators produce values for later in the expression
+    --filters remove values from the pipeline
+(*) Functions (functions.scala)
+    --"def' creates a new function (again, a name/value binding)
+    --curly-brackets are only necessary if the function is more
+        than one expression
+    --functions can overload
+    --functions/methods require type parameters
+    --compiler can often infer return type, but not always
+    --functions can nest
+    --"Unit" is the Scala equivalent to "void"; one instance "()"
+(*) Imports (imports.scala)
+    --imports use _ for wildcard
+    --class import brings in all members as top-level symbols
+    --imports can appear anywhere
+    --imports are scoped
+    --"instance" import brings in all members as top-level symbols
+    --imports can "alias" a typename
+(*) Recursion (recursion.scala)
+    --Recursion frequently requires explicit return type definition
+    --Scala can often apply tail-recursion optimization
+    --Recursion commonly used in functional programs
+(*) Arrays (arrays.scala)
+    --Arrays are initialized with "Array()"
+    --Arrays are accessed with "()" (*not* []!)
+    --Arrays are immutable, but their contents are not
+    --Arrays have accessor methods
+    --Arrays are generic (more on this later)
+(*) Lists (lists.scala)
+    --Lists are a built-in type
+    --Lists work well with recursion
+    --Lists have accessor methods
+    --Lists are immutable
+    --Lists are generic (more on this later)
+(*) Maps (maps.scala)
+    --Maps are key/value pairs
+    --Maps are immutable
+    --Maps are generic (more on this later)
+    --Maps extract values from keys using "()"
+    --Maps are essentially a collection of Tuples
+(*) Tuples (tuples.scala)
+    --Tuples are unnamed bundles of data elements
+    --Tuples are immutable
+    --Tuple values extracted with _1, _2, _3, ... _n
+    --Tuple values can also be extracted with value definition (a, b, c)
+(*) Option types (option.scala)
+    --Options are Some-or-None bundles of data
+    --Option values extracted by ...
+    --Options can also be extracted via pattern-matching (next)
+(*) Pattern matching (match.scala)
+    --Pattern matching "feels" like switch/case, but more powerful
+    --Match on constants, types, and more
+    --Use "_" for wildcard match
+    --match is an expression (yields a value)
+(*) Conclusion
+(*) Exercises
+	--Write a Fibonacci function. Create another version that takes Longs.
+	--Write a Fibonacci function that returns a List[Int] up to the number passed in.
+	--Write a function that extracts the class name (String), run date (Date), and
+		number of students (Int) from the tuple passed in.
+	--Write a function that takes an Array[String], appends "awesome" to each of the
+		arguments, then prints it
+	--Write a function that takes a List[String], appends "awesome" to each of the
+		arguments, then prints it. If you used iteration in the Array[String]
+		version, use recursion here
+
+
+
+Objects
+(*) Intro
+    --Get class/object syntax under your belt
+    --Inheritance & override methods
+    --Generics
+    --Case classes
+(*) Class (class.scala)
+    --syntax roughly similar to that of Java
+    --convention: def for methods, val/var for properties
+    --little syntactic attention to physical details
+(*) Constructors (ctors.scala)
+    --Principal constructor on class definition line
+    --"body" of class is the body of the principal ctor
+    --alternative ctors defined with "this"
+(*) Object (object.scala)
+    --object implies singleton instance
+    --object implies static methods, fields
+    --objects can have constructors as well (?)
+    --class and object of the same name indicates: companion object
+(*) Flexible syntax (members.scala)
+    --members can have much more flexible names
+    --including "operators"
+    --including "operators that don't exist"
+    --all are basically "members with funny-looking names"
+(*) Inheritance (inherits.scala)
+    --use "override" when overriding methods
+(*) Abstract and sealed (abseal.scala)
+    --use "abstract" to mark class or method as abstract
+    --use "sealed" to mark class or method non-inheritable
+(*) Traits (traits.scala)
+(*) Case classes (case.scala)
+    --useful for modeling algebraic data types/"tagged unions"
+    --useful for modeling "DTOs"
+    --useful for defining simple record types
+(*) Java interop (interop.scala)
+    --examining Scala class signature
+    --examining Scala object signature
+    --inheriting from a Java class
+    --inheriting from a Java interface
+(*) JavaBeans (beans.scala)
+    --using explicit member names
+    --using the @BeanProperty annotation
+(*) Conclusion
+(*) Exercises
+
+
+
+Functions
+(*) Intro
+    --Get functional Scala under your belt
+    --Understanding the function/functor relationship
+    --Using partial application
+    --Currying functions
+    --Lazy evaluation
+(*) Functions (asparams.scala)
+    --Functions are first-class values, passed as params
+    --Obviously param types/return type must match
+(*) Anonymous functions (anonfns.scala)
+    --Functions need not be named; can use as literals
+    --Parens name parameters, "arrow" starts body
+(*) Collections (collections.scala)
+	--Scala collections all take functions to apply to contents
+	--foreach executes a function against each object
+	--filter tests each object with the function and returns passed objects
+	--map applies a transformation function against each object
+	--can also use shortened "_" to represent the lone parameter for inline definition
+(*) Partial application (partapp.scala)
+    --
+(*) Currying (curry.scala)
+    --
+(*) Pipelining (pipe.scala)
+    --
+(*) Lazy evaluation (lazy.scla)
+    --
+
+    
+
+Actors
+
+
+
+Services
+
+
+
+Data Access
+(*) Intro
+    --Recap of JDBC
+
+
+
+Patterns
+(*) Intro
+    --The need for patterns
+    --Adapting patterns-based thinking to a new language
+(*) Creational
+    --Abstract Factory (?)
+    --Builder
+    --Factory Method
+    --Prototype
+    --Template Method (?)
+(*) Structural
+    --Adapter
+    --Composite
+    --Decorator
+    --Delegation
+    --Facade
+    --Singleton
+(*) Behavioral
+    --Command
+    --Strategy
+    --Execute Around Method
+    --Iterator
+    --Cascade (?)
+    --Memoization (intercept-cache-invoke) / Memento
+    --Mediator
+    --State
+    --Visitor
+(*) Summary
+    --The continued pursuit of patterns
+
