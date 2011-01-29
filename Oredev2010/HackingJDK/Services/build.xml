@@ -1,0 +1,29 @@
+<project name="service-loader-example" default="run">
+	
+	<target name="init">
+		<mkdir dir="service/classes" />
+		<mkdir dir="app/classes" />
+	</target>
+	
+	<target name="service-build" depends="init">
+		<javac srcdir="service/src" destdir="service/classes">
+			<include name="*.java" />
+		</javac>
+		<jar jarfile="service.jar">
+			<fileset dir="service/classes" />
+			<service type="example.service.Fooable">
+				<provider classname="example.service.FooImpl" />
+			</service>
+		</jar>
+	</target>
+	
+	<target name="app-build" depends="init">
+		<javac srcdir="app/src" destdir="app/classes" classpath="service.jar">
+			<include name="*.java" />
+		</javac>
+	</target>
+	
+	<target name="run" depends="service-build, app-build">
+	</target>
+	
+</project>
