@@ -1,0 +1,8 @@
+grant codeBase "file:/C:/Projects/Demos/NFJS2009/Chicago/PlatSec/*" {
+	permission java.util.PropertyPermission "java.version", "read,write";
+	permission SpeakPermission "insult";
+};
+grant codeBase "file:/C:/Projects/Demos/NFJS2009/Chicago/PlatSec/Util.jar" {
+	permission java.io.FilePermission "../insults.txt", "read";
+};
+
