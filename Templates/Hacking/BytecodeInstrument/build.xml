@@ -1,0 +1,30 @@
+<project name="bytecode-instrument-example" default="run">
+	
+	<target name="run">
+		<javac srcdir="." destdir="." classpath="lib/javassist.jar">
+			<include name="Trans.java" />
+		</javac>
+		<jar jarfile="trans.jar" basedir="." includes="*.class">
+			<manifest>
+				<attribute name="Premain-Class" value="Trans" />
+			</manifest>
+		</jar>
+		<delete file="Trans.class" />
+		<javac srcdir="." destdir=".">
+			<include name="Hello.java" />
+		</javac>
+		<java classname="Hello" fork="yes">
+			<classpath>
+				<pathelement location="lib/javassist.jar" />
+				<pathelement location="." />
+			</classpath>
+			<jvmarg value="-javaagent:trans.jar" />
+		</java>
+	</target>
+	
+	<target name="clean">
+		<delete file="trans.jar" />
+		<delete file="Hello.class" />
+	</target>
+	
+</project>
