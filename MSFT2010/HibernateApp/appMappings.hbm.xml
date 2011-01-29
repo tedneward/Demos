@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping
+    PUBLIC "-//Hibernate/Hibernate Mapping DTD//EN"
+    'http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd'>
+
+<hibernate-mapping>
+
+    <class name="hibernateapp.Author" table="author">
+        <id name="id" type="long" column="id"><generator class="native"/></id>
+        <property name="firstName" column="firstname" type="string"/>
+        <property name="lastName" column="lastname" type="string"/>
+    </class>
+
+</hibernate-mapping>
