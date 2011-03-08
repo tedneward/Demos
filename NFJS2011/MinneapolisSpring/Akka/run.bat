@@ -1,0 +1,1 @@
+java -classpath lib\akka-actor-1.0.jar;lib\akka-typed-actor-1.0.jar;lib\aspectwerkz-2.2.3.jar;lib\configgy-2.0.2-nologgy.jar;lib\scala-library.jar;lib\slf4j-api-1.6.0.jar;lib\aopalliance-1.0.jar;lib\uuid-3.2.jar;. %*
