@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleApplication1", "ConsoleApplication1\ConsoleApplication1.csproj", "{2ABB1524-6194-496E-8B67-14F895D19873}"
+EndProject
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "FSharpTutorial1", "FSharpTutorial1\FSharpTutorial1.fsproj", "{EDD00856-02B3-4CBB-8325-3B773784170C}"
+EndProject
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "FSharpConsoleApp", "FSharpConsoleApp\FSharpConsoleApp.fsproj", "{826090DD-CA2D-4AE4-8DE3-B81EC27387F8}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2ABB1524-6194-496E-8B67-14F895D19873}.Debug|x86.ActiveCfg = Debug|x86
+		{2ABB1524-6194-496E-8B67-14F895D19873}.Debug|x86.Build.0 = Debug|x86
+		{2ABB1524-6194-496E-8B67-14F895D19873}.Release|x86.ActiveCfg = Release|x86
+		{2ABB1524-6194-496E-8B67-14F895D19873}.Release|x86.Build.0 = Release|x86
+		{EDD00856-02B3-4CBB-8325-3B773784170C}.Debug|x86.ActiveCfg = Debug|x86
+		{EDD00856-02B3-4CBB-8325-3B773784170C}.Debug|x86.Build.0 = Debug|x86
+		{EDD00856-02B3-4CBB-8325-3B773784170C}.Release|x86.ActiveCfg = Release|x86
+		{EDD00856-02B3-4CBB-8325-3B773784170C}.Release|x86.Build.0 = Release|x86
+		{826090DD-CA2D-4AE4-8DE3-B81EC27387F8}.Debug|x86.ActiveCfg = Debug|x86
+		{826090DD-CA2D-4AE4-8DE3-B81EC27387F8}.Debug|x86.Build.0 = Debug|x86
+		{826090DD-CA2D-4AE4-8DE3-B81EC27387F8}.Release|x86.ActiveCfg = Release|x86
+		{826090DD-CA2D-4AE4-8DE3-B81EC27387F8}.Release|x86.Build.0 = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

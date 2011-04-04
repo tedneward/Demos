@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "Tutorial1", "Tutorial1\Tutorial1.fsproj", "{C220567D-A35D-480D-B4CF-D759EEAD3928}"
+EndProject
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "ConsoleApplication1", "ConsoleApplication1\ConsoleApplication1.fsproj", "{BEE18F1C-11B1-4F22-BB9C-72FC23A53D54}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C220567D-A35D-480D-B4CF-D759EEAD3928}.Debug|x86.ActiveCfg = Debug|x86
+		{C220567D-A35D-480D-B4CF-D759EEAD3928}.Debug|x86.Build.0 = Debug|x86
+		{C220567D-A35D-480D-B4CF-D759EEAD3928}.Release|x86.ActiveCfg = Release|x86
+		{C220567D-A35D-480D-B4CF-D759EEAD3928}.Release|x86.Build.0 = Release|x86
+		{BEE18F1C-11B1-4F22-BB9C-72FC23A53D54}.Debug|x86.ActiveCfg = Debug|x86
+		{BEE18F1C-11B1-4F22-BB9C-72FC23A53D54}.Debug|x86.Build.0 = Debug|x86
+		{BEE18F1C-11B1-4F22-BB9C-72FC23A53D54}.Release|x86.ActiveCfg = Release|x86
+		{BEE18F1C-11B1-4F22-BB9C-72FC23A53D54}.Release|x86.Build.0 = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
