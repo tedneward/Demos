@@ -1,0 +1,906 @@
+Compiled from "demo.groovy"
+public class demo extends groovy.lang.Script
+  SourceFile: "demo.groovy"
+  minor version: 0
+  major version: 47
+  Constant pool:
+const #1 = Asciz	demo;
+const #2 = class	#1;	//  demo
+const #3 = Asciz	groovy/lang/Script;
+const #4 = class	#3;	//  groovy/lang/Script
+const #5 = Asciz	demo.groovy;
+const #6 = Asciz	__timeStamp;
+const #7 = Asciz	Ljava/lang/Long;;
+const #8 = Asciz	__timeStamp__239_neverHappen1213229281504;
+const #9 = Asciz	<init>;
+const #10 = Asciz	()V;
+const #11 = NameAndType	#9:#10;//  "<init>":()V
+const #12 = Method	#4.#11;	//  groovy/lang/Script."<init>":()V
+const #13 = Asciz	class$0;
+const #14 = Asciz	Ljava/lang/Class;;
+const #15 = NameAndType	#13:#14;//  class$0:Ljava/lang/Class;
+const #16 = Field	#2.#15;	//  demo.class$0:Ljava/lang/Class;
+const #17 = String	#1;	//  demo
+const #18 = Asciz	class$;
+const #19 = Asciz	(Ljava/lang/String;)Ljava/lang/Class;;
+const #20 = NameAndType	#18:#19;//  class$:(Ljava/lang/String;)Ljava/lang/Class;
+const #21 = Method	#2.#20;	//  demo.class$:(Ljava/lang/String;)Ljava/lang/Class;
+const #22 = Asciz	class$groovy$lang$MetaClass;
+const #23 = NameAndType	#22:#14;//  class$groovy$lang$MetaClass:Ljava/lang/Class;
+const #24 = Field	#2.#23;	//  demo.class$groovy$lang$MetaClass:Ljava/lang/Class;
+const #25 = Asciz	groovy.lang.MetaClass;
+const #26 = String	#25;	//  groovy.lang.MetaClass
+const #27 = Asciz	this;
+const #28 = Asciz	Ldemo;;
+const #29 = Asciz	(Lgroovy/lang/Binding;)V;
+const #30 = Asciz	class$groovy$lang$Script;
+const #31 = NameAndType	#30:#14;//  class$groovy$lang$Script:Ljava/lang/Class;
+const #32 = Field	#2.#31;	//  demo.class$groovy$lang$Script:Ljava/lang/Class;
+const #33 = Asciz	groovy.lang.Script;
+const #34 = String	#33;	//  groovy.lang.Script
+const #35 = Asciz	setBinding;
+const #36 = String	#35;	//  setBinding
+const #37 = Asciz	java/lang/Object;
+const #38 = class	#37;	//  java/lang/Object
+const #39 = Asciz	org/codehaus/groovy/runtime/ScriptBytecodeAdapter;
+const #40 = class	#39;	//  org/codehaus/groovy/runtime/ScriptBytecodeAdapter
+const #41 = Asciz	invokeMethodOnSuperN;
+const #42 = Asciz	(Ljava/lang/Class;Lgroovy/lang/GroovyObject;Ljava/lang/String;[Ljava/lang/Object;)Ljava/lang/Object;;
+const #43 = NameAndType	#41:#42;//  invokeMethodOnSuperN:(Ljava/lang/Class;Lgroovy/lang/GroovyObject;Ljava/lang/String;[Ljava/lang/Object;)Ljava/lang/Object;
+const #44 = Method	#40.#43;	//  org/codehaus/groovy/runtime/ScriptBytecodeAdapter.invokeMethodOnSuperN:(Ljava/lang/Class;Lgroovy/lang/GroovyObject;Ljava/lang/String;[Ljava/lang/Object;)Ljava/lang/Object;
+const #45 = Asciz	context;
+const #46 = Asciz	Lgroovy/lang/Binding;;
+const #47 = Asciz	main;
+const #48 = Asciz	([Ljava/lang/String;)V;
+const #49 = Asciz	class$org$codehaus$groovy$runtime$InvokerHelper;
+const #50 = NameAndType	#49:#14;//  class$org$codehaus$groovy$runtime$InvokerHelper:Ljava/lang/Class;
+const #51 = Field	#2.#50;	//  demo.class$org$codehaus$groovy$runtime$InvokerHelper:Ljava/lang/Class;
+const #52 = Asciz	org.codehaus.groovy.runtime.InvokerHelper;
+const #53 = String	#52;	//  org.codehaus.groovy.runtime.InvokerHelper
+const #54 = Asciz	runScript;
+const #55 = String	#54;	//  runScript
+const #56 = Asciz	invokeMethodN;
+const #57 = Asciz	(Ljava/lang/Class;Ljava/lang/Object;Ljava/lang/String;[Ljava/lang/Object;)Ljava/lang/Object;;
+const #58 = NameAndType	#56:#57;//  invokeMethodN:(Ljava/lang/Class;Ljava/lang/Object;Ljava/lang/String;[Ljava/lang/Object;)Ljava/lang/Object;
+const #59 = Method	#40.#58;	//  org/codehaus/groovy/runtime/ScriptBytecodeAdapter.invokeMethodN:(Ljava/lang/Class;Ljava/lang/Object;Ljava/lang/String;[Ljava/lang/Object;)Ljava/lang/Object;
+const #60 = Asciz	args;
+const #61 = Asciz	[Ljava/lang/String;;
+const #62 = Asciz	run;
+const #63 = Asciz	()Ljava/lang/Object;;
+const #64 = Asciz	class$Person;
+const #65 = NameAndType	#64:#14;//  class$Person:Ljava/lang/Class;
+const #66 = Field	#2.#65;	//  demo.class$Person:Ljava/lang/Class;
+const #67 = Asciz	Person;
+const #68 = String	#67;	//  Person
+const #69 = Asciz	Keynan;
+const #70 = String	#69;	//  Keynan
+const #71 = Asciz	Pratt;
+const #72 = String	#71;	//  Pratt
+const #73 = Asciz	java/lang/Integer;
+const #74 = class	#73;	//  java/lang/Integer
+const #75 = int	15;
+const #76 = Asciz	(I)V;
+const #77 = NameAndType	#9:#76;//  "<init>":(I)V
+const #78 = Method	#74.#77;	//  java/lang/Integer."<init>":(I)V
+const #79 = Asciz	invokeNewN;
+const #80 = Asciz	(Ljava/lang/Class;Ljava/lang/Class;Ljava/lang/Object;)Ljava/lang/Object;;
+const #81 = NameAndType	#79:#80;//  invokeNewN:(Ljava/lang/Class;Ljava/lang/Class;Ljava/lang/Object;)Ljava/lang/Object;
+const #82 = Method	#40.#81;	//  org/codehaus/groovy/runtime/ScriptBytecodeAdapter.invokeNewN:(Ljava/lang/Class;Ljava/lang/Class;Ljava/lang/Object;)Ljava/lang/Object;
+const #83 = Asciz	class$groovy$lang$GroovyObject;
+const #84 = NameAndType	#83:#14;//  class$groovy$lang$GroovyObject:Ljava/lang/Class;
+const #85 = Field	#2.#84;	//  demo.class$groovy$lang$GroovyObject:Ljava/lang/Class;
+const #86 = Asciz	groovy.lang.GroovyObject;
+const #87 = String	#86;	//  groovy.lang.GroovyObject
+const #88 = Asciz	castToType;
+const #89 = Asciz	(Ljava/lang/Object;Ljava/lang/Class;)Ljava/lang/Object;;
+const #90 = NameAndType	#88:#89;//  castToType:(Ljava/lang/Object;Ljava/lang/Class;)Ljava/lang/Object;
+const #91 = Method	#40.#90;	//  org/codehaus/groovy/runtime/ScriptBytecodeAdapter.castToType:(Ljava/lang/Object;Ljava/lang/Class;)Ljava/lang/Object;
+const #92 = Asciz	groovy/lang/GroovyObject;
+const #93 = class	#92;	//  groovy/lang/GroovyObject
+const #94 = Asciz	println;
+const #95 = String	#94;	//  println
+const #96 = Asciz	org/codehaus/groovy/runtime/GStringImpl;
+const #97 = class	#96;	//  org/codehaus/groovy/runtime/GStringImpl
+const #98 = Asciz	firstName;
+const #99 = String	#98;	//  firstName
+const #100 = Asciz	getProperty;
+const #101 = Asciz	(Ljava/lang/Class;Ljava/lang/Object;Ljava/lang/String;)Ljava/lang/Object;;
+const #102 = NameAndType	#100:#101;//  getProperty:(Ljava/lang/Class;Ljava/lang/Object;Ljava/lang/String;)Ljava/lang/Object;
+const #103 = Method	#40.#102;	//  org/codehaus/groovy/runtime/ScriptBytecodeAdapter.getProperty:(Ljava/lang/Class;Ljava/lang/Object;Ljava/lang/String;)Ljava/lang/Object;
+const #104 = Asciz	lastName;
+const #105 = String	#104;	//  lastName
+const #106 = Asciz	age;
+const #107 = String	#106;	//  age
+const #108 = Asciz	java/lang/String;
+const #109 = class	#108;	//  java/lang/String
+const #110 = Asciz	Everybody say hi to ;
+const #111 = String	#110;	//  Everybody say hi to 
+const #112 = Asciz	 ;
+const #113 = String	#112;	//   
+const #114 = Asciz	;
+const #115 = String	#114;	//  
+const #116 = Asciz	([Ljava/lang/Object;[Ljava/lang/String;)V;
+const #117 = NameAndType	#9:#116;//  "<init>":([Ljava/lang/Object;[Ljava/lang/String;)V
+const #118 = Method	#97.#117;	//  org/codehaus/groovy/runtime/GStringImpl."<init>":([Ljava/lang/Object;[Ljava/lang/String;)V
+const #119 = Asciz	invokeMethodOnCurrentN;
+const #120 = NameAndType	#119:#42;//  invokeMethodOnCurrentN:(Ljava/lang/Class;Lgroovy/lang/GroovyObject;Ljava/lang/String;[Ljava/lang/Object;)Ljava/lang/Object;
+const #121 = Method	#40.#120;	//  org/codehaus/groovy/runtime/ScriptBytecodeAdapter.invokeMethodOnCurrentN:(Ljava/lang/Class;Lgroovy/lang/GroovyObject;Ljava/lang/String;[Ljava/lang/Object;)Ljava/lang/Object;
+const #122 = Asciz	Max;
+const #123 = String	#122;	//  Max
+const #124 = Asciz	Sun;
+const #125 = String	#124;	//  Sun
+const #126 = int	44;
+const #127 = Asciz	setProperty;
+const #128 = Asciz	(Ljava/lang/Object;Ljava/lang/Class;Ljava/lang/Object;Ljava/lang/String;)V;
+const #129 = NameAndType	#127:#128;//  setProperty:(Ljava/lang/Object;Ljava/lang/Class;Ljava/lang/Object;Ljava/lang/String;)V
+const #130 = Method	#40.#129;	//  org/codehaus/groovy/runtime/ScriptBytecodeAdapter.setProperty:(Ljava/lang/Object;Ljava/lang/Class;Ljava/lang/Object;Ljava/lang/String;)V
+const #131 = Asciz	p2 = ;
+const #132 = String	#131;	//  p2 = 
+const #133 = Asciz	p;
+const #134 = Asciz	LPerson;;
+const #135 = Asciz	p2;
+const #136 = Asciz	<clinit>;
+const #137 = Asciz	java/lang/Long;
+const #138 = class	#137;	//  java/lang/Long
+const #139 = long	1213229281504l;
+const #141 = Asciz	(J)V;
+const #142 = NameAndType	#9:#141;//  "<init>":(J)V
+const #143 = Method	#138.#142;	//  java/lang/Long."<init>":(J)V
+const #144 = NameAndType	#6:#7;//  __timeStamp:Ljava/lang/Long;
+const #145 = Field	#2.#144;	//  demo.__timeStamp:Ljava/lang/Long;
+const #146 = long	0l;
+const #148 = NameAndType	#8:#7;//  __timeStamp__239_neverHappen1213229281504:Ljava/lang/Long;
+const #149 = Field	#2.#148;	//  demo.__timeStamp__239_neverHappen1213229281504:Ljava/lang/Long;
+const #150 = Asciz	super$3$getProperty;
+const #151 = Asciz	(Ljava/lang/String;)Ljava/lang/Object;;
+const #152 = NameAndType	#100:#151;//  getProperty:(Ljava/lang/String;)Ljava/lang/Object;
+const #153 = Method	#4.#152;	//  groovy/lang/Script.getProperty:(Ljava/lang/String;)Ljava/lang/Object;
+const #154 = Asciz	super$1$toString;
+const #155 = Asciz	()Ljava/lang/String;;
+const #156 = Asciz	toString;
+const #157 = NameAndType	#156:#155;//  toString:()Ljava/lang/String;
+const #158 = Method	#38.#157;	//  java/lang/Object.toString:()Ljava/lang/String;
+const #159 = Asciz	super$3$setProperty;
+const #160 = Asciz	(Ljava/lang/String;Ljava/lang/Object;)V;
+const #161 = NameAndType	#127:#160;//  setProperty:(Ljava/lang/String;Ljava/lang/Object;)V
+const #162 = Method	#4.#161;	//  groovy/lang/Script.setProperty:(Ljava/lang/String;Ljava/lang/Object;)V
+const #163 = Asciz	super$1$notify;
+const #164 = Asciz	notify;
+const #165 = NameAndType	#164:#10;//  notify:()V
+const #166 = Method	#38.#165;	//  java/lang/Object.notify:()V
+const #167 = Asciz	super$3$println;
+const #168 = NameAndType	#94:#10;//  println:()V
+const #169 = Method	#4.#168;	//  groovy/lang/Script.println:()V
+const #170 = Asciz	super$1$notifyAll;
+const #171 = Asciz	notifyAll;
+const #172 = NameAndType	#171:#10;//  notifyAll:()V
+const #173 = Method	#38.#172;	//  java/lang/Object.notifyAll:()V
+const #174 = Asciz	super$3$print;
+const #175 = Asciz	(Ljava/lang/Object;)V;
+const #176 = Asciz	print;
+const #177 = NameAndType	#176:#175;//  print:(Ljava/lang/Object;)V
+const #178 = Method	#4.#177;	//  groovy/lang/Script.print:(Ljava/lang/Object;)V
+const #179 = Asciz	super$1$clone;
+const #180 = Asciz	clone;
+const #181 = NameAndType	#180:#63;//  clone:()Ljava/lang/Object;
+const #182 = Method	#38.#181;	//  java/lang/Object.clone:()Ljava/lang/Object;
+const #183 = Asciz	super$3$evaluate;
+const #184 = Asciz	evaluate;
+const #185 = NameAndType	#184:#151;//  evaluate:(Ljava/lang/String;)Ljava/lang/Object;
+const #186 = Method	#4.#185;	//  groovy/lang/Script.evaluate:(Ljava/lang/String;)Ljava/lang/Object;
+const #187 = Asciz	super$1$wait;
+const #188 = Asciz	wait;
+const #189 = NameAndType	#188:#10;//  wait:()V
+const #190 = Method	#38.#189;	//  java/lang/Object.wait:()V
+const #191 = Asciz	super$2$getMetaClass;
+const #192 = Asciz	()Lgroovy/lang/MetaClass;;
+const #193 = Asciz	groovy/lang/GroovyObjectSupport;
+const #194 = class	#193;	//  groovy/lang/GroovyObjectSupport
+const #195 = Asciz	getMetaClass;
+const #196 = NameAndType	#195:#192;//  getMetaClass:()Lgroovy/lang/MetaClass;
+const #197 = Method	#194.#196;	//  groovy/lang/GroovyObjectSupport.getMetaClass:()Lgroovy/lang/MetaClass;
+const #198 = Asciz	(JI)V;
+const #199 = NameAndType	#188:#198;//  wait:(JI)V
+const #200 = Method	#38.#199;	//  java/lang/Object.wait:(JI)V
+const #201 = Asciz	super$2$setMetaClass;
+const #202 = Asciz	(Lgroovy/lang/MetaClass;)V;
+const #203 = Asciz	setMetaClass;
+const #204 = NameAndType	#203:#202;//  setMetaClass:(Lgroovy/lang/MetaClass;)V
+const #205 = Method	#194.#204;	//  groovy/lang/GroovyObjectSupport.setMetaClass:(Lgroovy/lang/MetaClass;)V
+const #206 = Asciz	super$1$getClass;
+const #207 = Asciz	()Ljava/lang/Class;;
+const #208 = Asciz	getClass;
+const #209 = NameAndType	#208:#207;//  getClass:()Ljava/lang/Class;
+const #210 = Method	#38.#209;	//  java/lang/Object.getClass:()Ljava/lang/Class;
+const #211 = Asciz	super$3$getBinding;
+const #212 = Asciz	()Lgroovy/lang/Binding;;
+const #213 = Asciz	getBinding;
+const #214 = NameAndType	#213:#212;//  getBinding:()Lgroovy/lang/Binding;
+const #215 = Method	#4.#214;	//  groovy/lang/Script.getBinding:()Lgroovy/lang/Binding;
+const #216 = Asciz	super$1$finalize;
+const #217 = Asciz	finalize;
+const #218 = NameAndType	#217:#10;//  finalize:()V
+const #219 = Method	#38.#218;	//  java/lang/Object.finalize:()V
+const #220 = Asciz	super$3$setBinding;
+const #221 = NameAndType	#35:#29;//  setBinding:(Lgroovy/lang/Binding;)V
+const #222 = Method	#4.#221;	//  groovy/lang/Script.setBinding:(Lgroovy/lang/Binding;)V
+const #223 = NameAndType	#188:#141;//  wait:(J)V
+const #224 = Method	#38.#223;	//  java/lang/Object.wait:(J)V
+const #225 = Asciz	super$3$run;
+const #226 = Asciz	(Ljava/io/File;[Ljava/lang/String;)V;
+const #227 = NameAndType	#62:#226;//  run:(Ljava/io/File;[Ljava/lang/String;)V
+const #228 = Method	#4.#227;	//  groovy/lang/Script.run:(Ljava/io/File;[Ljava/lang/String;)V
+const #229 = Asciz	(Ljava/io/File;)Ljava/lang/Object;;
+const #230 = NameAndType	#184:#229;//  evaluate:(Ljava/io/File;)Ljava/lang/Object;
+const #231 = Method	#4.#230;	//  groovy/lang/Script.evaluate:(Ljava/io/File;)Ljava/lang/Object;
+const #232 = NameAndType	#94:#175;//  println:(Ljava/lang/Object;)V
+const #233 = Method	#4.#232;	//  groovy/lang/Script.println:(Ljava/lang/Object;)V
+const #234 = Asciz	super$1$equals;
+const #235 = Asciz	(Ljava/lang/Object;)Z;
+const #236 = Asciz	equals;
+const #237 = NameAndType	#236:#235;//  equals:(Ljava/lang/Object;)Z
+const #238 = Method	#38.#237;	//  java/lang/Object.equals:(Ljava/lang/Object;)Z
+const #239 = Asciz	super$3$invokeMethod;
+const #240 = Asciz	(Ljava/lang/String;Ljava/lang/Object;)Ljava/lang/Object;;
+const #241 = Asciz	invokeMethod;
+const #242 = NameAndType	#241:#240;//  invokeMethod:(Ljava/lang/String;Ljava/lang/Object;)Ljava/lang/Object;
+const #243 = Method	#4.#242;	//  groovy/lang/Script.invokeMethod:(Ljava/lang/String;Ljava/lang/Object;)Ljava/lang/Object;
+const #244 = Asciz	super$1$hashCode;
+const #245 = Asciz	()I;
+const #246 = Asciz	hashCode;
+const #247 = NameAndType	#246:#245;//  hashCode:()I
+const #248 = Method	#38.#247;	//  java/lang/Object.hashCode:()I
+const #249 = Asciz	java/lang/Class;
+const #250 = class	#249;	//  java/lang/Class
+const #251 = Asciz	forName;
+const #252 = NameAndType	#251:#19;//  forName:(Ljava/lang/String;)Ljava/lang/Class;
+const #253 = Method	#250.#252;	//  java/lang/Class.forName:(Ljava/lang/String;)Ljava/lang/Class;
+const #254 = Asciz	java/lang/NoClassDefFoundError;
+const #255 = class	#254;	//  java/lang/NoClassDefFoundError
+const #256 = Asciz	java/lang/ClassNotFoundException;
+const #257 = class	#256;	//  java/lang/ClassNotFoundException
+const #258 = Asciz	getMessage;
+const #259 = NameAndType	#258:#155;//  getMessage:()Ljava/lang/String;
+const #260 = Method	#257.#259;	//  java/lang/ClassNotFoundException.getMessage:()Ljava/lang/String;
+const #261 = Asciz	(Ljava/lang/String;)V;
+const #262 = NameAndType	#9:#261;//  "<init>":(Ljava/lang/String;)V
+const #263 = Method	#255.#262;	//  java/lang/NoClassDefFoundError."<init>":(Ljava/lang/String;)V
+const #264 = Asciz	Synthetic;
+const #265 = Asciz	Code;
+const #266 = Asciz	LocalVariableTable;
+const #267 = Asciz	LineNumberTable;
+const #268 = Asciz	SourceFile;
+
+{
+public static java.lang.Long __timeStamp;
+
+public static java.lang.Long __timeStamp__239_neverHappen1213229281504;
+
+static java.lang.Class class$groovy$lang$MetaClass;
+  Synthetic: true
+
+static java.lang.Class class$0;
+  Synthetic: true
+
+static java.lang.Class class$groovy$lang$GroovyObject;
+  Synthetic: true
+
+static java.lang.Class class$org$codehaus$groovy$runtime$InvokerHelper;
+  Synthetic: true
+
+static java.lang.Class class$groovy$lang$Script;
+  Synthetic: true
+
+static java.lang.Class class$Person;
+  Synthetic: true
+
+public demo();
+  Code:
+   Stack=2, Locals=3, Args_size=1
+   0:	aload_0
+   1:	invokespecial	#12; //Method groovy/lang/Script."<init>":()V
+   4:	getstatic	#16; //Field class$0:Ljava/lang/Class;
+   7:	ifnonnull	22
+   10:	ldc	#17; //String demo
+   12:	invokestatic	#21; //Method class$:(Ljava/lang/String;)Ljava/lang/Class;
+   15:	dup
+   16:	putstatic	#16; //Field class$0:Ljava/lang/Class;
+   19:	goto	25
+   22:	getstatic	#16; //Field class$0:Ljava/lang/Class;
+   25:	dup
+   26:	astore_1
+   27:	pop
+   28:	getstatic	#24; //Field class$groovy$lang$MetaClass:Ljava/lang/Class;
+   31:	ifnonnull	46
+   34:	ldc	#26; //String groovy.lang.MetaClass
+   36:	invokestatic	#21; //Method class$:(Ljava/lang/String;)Ljava/lang/Class;
+   39:	dup
+   40:	putstatic	#24; //Field class$groovy$lang$MetaClass:Ljava/lang/Class;
+   43:	goto	49
+   46:	getstatic	#24; //Field class$groovy$lang$MetaClass:Ljava/lang/Class;
+   49:	dup
+   50:	astore_2
+   51:	pop
+   52:	return
+  LocalVariableTable: 
+   Start  Length  Slot  Name   Signature
+   4      48      0    this       Ldemo;
+
+
+public demo(groovy.lang.Binding);
+  Code:
+   Stack=7, Locals=4, Args_size=2
+   0:	aload_0
+   1:	invokespecial	#12; //Method groovy/lang/Script."<init>":()V
+   4:	getstatic	#16; //Field class$0:Ljava/lang/Class;
+   7:	ifnonnull	22
+   10:	ldc	#17; //String demo
+   12:	invokestatic	#21; //Method class$:(Ljava/lang/String;)Ljava/lang/Class;
+   15:	dup
+   16:	putstatic	#16; //Field class$0:Ljava/lang/Class;
+   19:	goto	25
+   22:	getstatic	#16; //Field class$0:Ljava/lang/Class;
+   25:	dup
+   26:	astore_2
+   27:	pop
+   28:	getstatic	#24; //Field class$groovy$lang$MetaClass:Ljava/lang/Class;
+   31:	ifnonnull	46
+   34:	ldc	#26; //String groovy.lang.MetaClass
+   36:	invokestatic	#21; //Method class$:(Ljava/lang/String;)Ljava/lang/Class;
+   39:	dup
+   40:	putstatic	#24; //Field class$groovy$lang$MetaClass:Ljava/lang/Class;
+   43:	goto	49
+   46:	getstatic	#24; //Field class$groovy$lang$MetaClass:Ljava/lang/Class;
+   49:	dup
+   50:	astore_3
+   51:	pop
+   52:	getstatic	#32; //Field class$groovy$lang$Script:Ljava/lang/Class;
+   55:	ifnonnull	70
+   58:	ldc	#34; //String groovy.lang.Script
+   60:	invokestatic	#21; //Method class$:(Ljava/lang/String;)Ljava/lang/Class;
+   63:	dup
+   64:	putstatic	#32; //Field class$groovy$lang$Script:Ljava/lang/Class;
+   67:	goto	73
+   70:	getstatic	#32; //Field class$groovy$lang$Script:Ljava/lang/Class;
+   73:	aload_0
+   74:	ldc	#36; //String setBinding
+   76:	iconst_1
+   77:	anewarray	#38; //class java/lang/Object
+   80:	dup
+   81:	iconst_0
+   82:	aload_1
+   83:	aastore
+   84:	invokestatic	#44; //Method org/codehaus/groovy/runtime/ScriptBytecodeAdapter.invokeMethodOnSuperN:(Ljava/lang/Class;Lgroovy/lang/GroovyObject;Ljava/lang/String;[Ljava/lang/Object;)Ljava/lang/Object;
+   87:	pop
+   88:	return
+  LocalVariableTable: 
+   Start  Length  Slot  Name   Signature
+   4      85      0    this       Ldemo;
+   4      85      1    context       Lgroovy/lang/Binding;
+
+
+public static void main(java.lang.String[]);
+  Code:
+   Stack=7, Locals=3, Args_size=1
+   0:	getstatic	#16; //Field class$0:Ljava/lang/Class;
+   3:	ifnonnull	18
+   6:	ldc	#17; //String demo
+   8:	invokestatic	#21; //Method class$:(Ljava/lang/String;)Ljava/lang/Class;
+   11:	dup
+   12:	putstatic	#16; //Field class$0:Ljava/lang/Class;
+   15:	goto	21
+   18:	getstatic	#16; //Field class$0:Ljava/lang/Class;
+   21:	dup
+   22:	astore_1
+   23:	pop
+   24:	getstatic	#24; //Field class$groovy$lang$MetaClass:Ljava/lang/Class;
+   27:	ifnonnull	42
+   30:	ldc	#26; //String groovy.lang.MetaClass
+   32:	invokestatic	#21; //Method class$:(Ljava/lang/String;)Ljava/lang/Class;
+   35:	dup
+   36:	putstatic	#24; //Field class$groovy$lang$MetaClass:Ljava/lang/Class;
+   39:	goto	45
+   42:	getstatic	#24; //Field class$groovy$lang$MetaClass:Ljava/lang/Class;
+   45:	dup
+   46:	astore_2
+   47:	pop
+   48:	aload_1
+   49:	getstatic	#51; //Field class$org$codehaus$groovy$runtime$InvokerHelper:Ljava/lang/Class;
+   52:	ifnonnull	67
+   55:	ldc	#53; //String org.codehaus.groovy.runtime.InvokerHelper
+   57:	invokestatic	#21; //Method class$:(Ljava/lang/String;)Ljava/lang/Class;
+   60:	dup
+   61:	putstatic	#51; //Field class$org$codehaus$groovy$runtime$InvokerHelper:Ljava/lang/Class;
+   64:	goto	70
+   67:	getstatic	#51; //Field class$org$codehaus$groovy$runtime$InvokerHelper:Ljava/lang/Class;
+   70:	ldc	#55; //String runScript
+   72:	iconst_2
+   73:	anewarray	#38; //class java/lang/Object
+   76:	dup
+   77:	iconst_0
+   78:	aload_1
+   79:	aastore
+   80:	dup
+   81:	iconst_1
+   82:	aload_0
+   83:	aastore
+   84:	invokestatic	#59; //Method org/codehaus/groovy/runtime/ScriptBytecodeAdapter.invokeMethodN:(Ljava/lang/Class;Ljava/lang/Object;Ljava/lang/String;[Ljava/lang/Object;)Ljava/lang/Object;
+   87:	pop
+   88:	return
+   89:	return
+  LocalVariableTable: 
+   Start  Length  Slot  Name   Signature
+   0      89      0    args       [Ljava/lang/String;
+
+
+public java.lang.Object run();
+  Code:
+   Stack=14, Locals=5, Args_size=1
+   0:	getstatic	#16; //Field class$0:Ljava/lang/Class;
+   3:	ifnonnull	18
+   6:	ldc	#17; //String demo
+   8:	invokestatic	#21; //Method class$:(Ljava/lang/String;)Ljava/lang/Class;
+   11:	dup
+   12:	putstatic	#16; //Field class$0:Ljava/lang/Class;
+   15:	goto	21
+   18:	getstatic	#16; //Field class$0:Ljava/lang/Class;
+   21:	dup
+   22:	astore_1
+   23:	pop
+   24:	getstatic	#24; //Field class$groovy$lang$MetaClass:Ljava/lang/Class;
+   27:	ifnonnull	42
+   30:	ldc	#26; //String groovy.lang.MetaClass
+   32:	invokestatic	#21; //Method class$:(Ljava/lang/String;)Ljava/lang/Class;
+   35:	dup
+   36:	putstatic	#24; //Field class$groovy$lang$MetaClass:Ljava/lang/Class;
+   39:	goto	45
+   42:	getstatic	#24; //Field class$groovy$lang$MetaClass:Ljava/lang/Class;
+   45:	dup
+   46:	astore_2
+   47:	pop
+   48:	aload_1
+   49:	getstatic	#66; //Field class$Person:Ljava/lang/Class;
+   52:	ifnonnull	67
+   55:	ldc	#68; //String Person
+   57:	invokestatic	#21; //Method class$:(Ljava/lang/String;)Ljava/lang/Class;
+   60:	dup
+   61:	putstatic	#66; //Field class$Person:Ljava/lang/Class;
+   64:	goto	70
+   67:	getstatic	#66; //Field class$Person:Ljava/lang/Class;
+   70:	iconst_3
+   71:	anewarray	#38; //class java/lang/Object
+   74:	dup
+   75:	iconst_0
+   76:	ldc	#70; //String Keynan
+   78:	aastore
+   79:	dup
+   80:	iconst_1
+   81:	ldc	#72; //String Pratt
+   83:	aastore
+   84:	dup
+   85:	iconst_2
+   86:	new	#74; //class java/lang/Integer
+   89:	dup
+   90:	ldc	#75; //int 15
+   92:	invokespecial	#78; //Method java/lang/Integer."<init>":(I)V
+   95:	aastore
+   96:	invokestatic	#82; //Method org/codehaus/groovy/runtime/ScriptBytecodeAdapter.invokeNewN:(Ljava/lang/Class;Ljava/lang/Class;Ljava/lang/Object;)Ljava/lang/Object;
+   99:	astore_3
+   100:	aload_1
+   101:	aload_0
+   102:	getstatic	#85; //Field class$groovy$lang$GroovyObject:Ljava/lang/Class;
+   105:	ifnonnull	120
+   108:	ldc	#87; //String groovy.lang.GroovyObject
+   110:	invokestatic	#21; //Method class$:(Ljava/lang/String;)Ljava/lang/Class;
+   113:	dup
+   114:	putstatic	#85; //Field class$groovy$lang$GroovyObject:Ljava/lang/Class;
+   117:	goto	123
+   120:	getstatic	#85; //Field class$groovy$lang$GroovyObject:Ljava/lang/Class;
+   123:	invokestatic	#91; //Method org/codehaus/groovy/runtime/ScriptBytecodeAdapter.castToType:(Ljava/lang/Object;Ljava/lang/Class;)Ljava/lang/Object;
+   126:	checkcast	#93; //class groovy/lang/GroovyObject
+   129:	ldc	#95; //String println
+   131:	iconst_1
+   132:	anewarray	#38; //class java/lang/Object
+   135:	dup
+   136:	iconst_0
+   137:	new	#97; //class org/codehaus/groovy/runtime/GStringImpl
+   140:	dup
+   141:	iconst_3
+   142:	anewarray	#38; //class java/lang/Object
+   145:	dup
+   146:	iconst_0
+   147:	aload_1
+   148:	aload_3
+   149:	ldc	#99; //String firstName
+   151:	invokestatic	#103; //Method org/codehaus/groovy/runtime/ScriptBytecodeAdapter.getProperty:(Ljava/lang/Class;Ljava/lang/Object;Ljava/lang/String;)Ljava/lang/Object;
+   154:	aastore
+   155:	dup
+   156:	iconst_1
+   157:	aload_1
+   158:	aload_3
+   159:	ldc	#105; //String lastName
+   161:	invokestatic	#103; //Method org/codehaus/groovy/runtime/ScriptBytecodeAdapter.getProperty:(Ljava/lang/Class;Ljava/lang/Object;Ljava/lang/String;)Ljava/lang/Object;
+   164:	aastore
+   165:	dup
+   166:	iconst_2
+   167:	aload_1
+   168:	aload_3
+   169:	ldc	#107; //String age
+   171:	invokestatic	#103; //Method org/codehaus/groovy/runtime/ScriptBytecodeAdapter.getProperty:(Ljava/lang/Class;Ljava/lang/Object;Ljava/lang/String;)Ljava/lang/Object;
+   174:	aastore
+   175:	iconst_4
+   176:	anewarray	#109; //class java/lang/String
+   179:	dup
+   180:	iconst_0
+   181:	ldc	#111; //String Everybody say hi to 
+   183:	aastore
+   184:	dup
+   185:	iconst_1
+   186:	ldc	#113; //String  
+   188:	aastore
+   189:	dup
+   190:	iconst_2
+   191:	ldc	#113; //String  
+   193:	aastore
+   194:	dup
+   195:	iconst_3
+   196:	ldc	#115; //String 
+   198:	aastore
+   199:	invokespecial	#118; //Method org/codehaus/groovy/runtime/GStringImpl."<init>":([Ljava/lang/Object;[Ljava/lang/String;)V
+   202:	aastore
+   203:	invokestatic	#121; //Method org/codehaus/groovy/runtime/ScriptBytecodeAdapter.invokeMethodOnCurrentN:(Ljava/lang/Class;Lgroovy/lang/GroovyObject;Ljava/lang/String;[Ljava/lang/Object;)Ljava/lang/Object;
+   206:	pop
+   207:	aload_1
+   208:	getstatic	#66; //Field class$Person:Ljava/lang/Class;
+   211:	ifnonnull	226
+   214:	ldc	#68; //String Person
+   216:	invokestatic	#21; //Method class$:(Ljava/lang/String;)Ljava/lang/Class;
+   219:	dup
+   220:	putstatic	#66; //Field class$Person:Ljava/lang/Class;
+   223:	goto	229
+   226:	getstatic	#66; //Field class$Person:Ljava/lang/Class;
+   229:	iconst_3
+   230:	anewarray	#38; //class java/lang/Object
+   233:	dup
+   234:	iconst_0
+   235:	ldc	#123; //String Max
+   237:	aastore
+   238:	dup
+   239:	iconst_1
+   240:	ldc	#125; //String Sun
+   242:	aastore
+   243:	dup
+   244:	iconst_2
+   245:	new	#74; //class java/lang/Integer
+   248:	dup
+   249:	ldc	#126; //int 44
+   251:	invokespecial	#78; //Method java/lang/Integer."<init>":(I)V
+   254:	aastore
+   255:	invokestatic	#82; //Method org/codehaus/groovy/runtime/ScriptBytecodeAdapter.invokeNewN:(Ljava/lang/Class;Ljava/lang/Class;Ljava/lang/Object;)Ljava/lang/Object;
+   258:	astore	4
+   260:	ldc	#72; //String Pratt
+   262:	dup
+   263:	aload_1
+   264:	aload	4
+   266:	ldc	#105; //String lastName
+   268:	invokestatic	#130; //Method org/codehaus/groovy/runtime/ScriptBytecodeAdapter.setProperty:(Ljava/lang/Object;Ljava/lang/Class;Ljava/lang/Object;Ljava/lang/String;)V
+   271:	pop
+   272:	aload_1
+   273:	aload_0
+   274:	getstatic	#85; //Field class$groovy$lang$GroovyObject:Ljava/lang/Class;
+   277:	ifnonnull	292
+   280:	ldc	#87; //String groovy.lang.GroovyObject
+   282:	invokestatic	#21; //Method class$:(Ljava/lang/String;)Ljava/lang/Class;
+   285:	dup
+   286:	putstatic	#85; //Field class$groovy$lang$GroovyObject:Ljava/lang/Class;
+   289:	goto	295
+   292:	getstatic	#85; //Field class$groovy$lang$GroovyObject:Ljava/lang/Class;
+   295:	invokestatic	#91; //Method org/codehaus/groovy/runtime/ScriptBytecodeAdapter.castToType:(Ljava/lang/Object;Ljava/lang/Class;)Ljava/lang/Object;
+   298:	checkcast	#93; //class groovy/lang/GroovyObject
+   301:	ldc	#95; //String println
+   303:	iconst_1
+   304:	anewarray	#38; //class java/lang/Object
+   307:	dup
+   308:	iconst_0
+   309:	new	#97; //class org/codehaus/groovy/runtime/GStringImpl
+   312:	dup
+   313:	iconst_1
+   314:	anewarray	#38; //class java/lang/Object
+   317:	dup
+   318:	iconst_0
+   319:	aload	4
+   321:	aastore
+   322:	iconst_2
+   323:	anewarray	#109; //class java/lang/String
+   326:	dup
+   327:	iconst_0
+   328:	ldc	#132; //String p2 = 
+   330:	aastore
+   331:	dup
+   332:	iconst_1
+   333:	ldc	#115; //String 
+   335:	aastore
+   336:	invokespecial	#118; //Method org/codehaus/groovy/runtime/GStringImpl."<init>":([Ljava/lang/Object;[Ljava/lang/String;)V
+   339:	aastore
+   340:	invokestatic	#121; //Method org/codehaus/groovy/runtime/ScriptBytecodeAdapter.invokeMethodOnCurrentN:(Ljava/lang/Class;Lgroovy/lang/GroovyObject;Ljava/lang/String;[Ljava/lang/Object;)Ljava/lang/Object;
+   343:	areturn
+  LocalVariableTable: 
+   Start  Length  Slot  Name   Signature
+   0      344      0    this       Ldemo;
+   100      244      3    p       LPerson;
+   260      84      4    p2       LPerson;
+
+  LineNumberTable: 
+   line 29: 48
+   line 30: 100
+   line 32: 207
+   line 33: 260
+   line 34: 272
+
+
+static {};
+  Code:
+   Stack=4, Locals=2, Args_size=0
+   0:	getstatic	#16; //Field class$0:Ljava/lang/Class;
+   3:	ifnonnull	18
+   6:	ldc	#17; //String demo
+   8:	invokestatic	#21; //Method class$:(Ljava/lang/String;)Ljava/lang/Class;
+   11:	dup
+   12:	putstatic	#16; //Field class$0:Ljava/lang/Class;
+   15:	goto	21
+   18:	getstatic	#16; //Field class$0:Ljava/lang/Class;
+   21:	dup
+   22:	astore_0
+   23:	pop
+   24:	getstatic	#24; //Field class$groovy$lang$MetaClass:Ljava/lang/Class;
+   27:	ifnonnull	42
+   30:	ldc	#26; //String groovy.lang.MetaClass
+   32:	invokestatic	#21; //Method class$:(Ljava/lang/String;)Ljava/lang/Class;
+   35:	dup
+   36:	putstatic	#24; //Field class$groovy$lang$MetaClass:Ljava/lang/Class;
+   39:	goto	45
+   42:	getstatic	#24; //Field class$groovy$lang$MetaClass:Ljava/lang/Class;
+   45:	dup
+   46:	astore_1
+   47:	pop
+   48:	new	#138; //class java/lang/Long
+   51:	dup
+   52:	ldc2_w	#139; //long 1213229281504l
+   55:	invokespecial	#143; //Method java/lang/Long."<init>":(J)V
+   58:	dup
+   59:	checkcast	#138; //class java/lang/Long
+   62:	putstatic	#145; //Field __timeStamp:Ljava/lang/Long;
+   65:	pop
+   66:	new	#138; //class java/lang/Long
+   69:	dup
+   70:	ldc2_w	#146; //long 0l
+   73:	invokespecial	#143; //Method java/lang/Long."<init>":(J)V
+   76:	dup
+   77:	checkcast	#138; //class java/lang/Long
+   80:	putstatic	#149; //Field __timeStamp__239_neverHappen1213229281504:Ljava/lang/Long;
+   83:	pop
+   84:	new	#138; //class java/lang/Long
+   87:	dup
+   88:	ldc2_w	#139; //long 1213229281504l
+   91:	invokespecial	#143; //Method java/lang/Long."<init>":(J)V
+   94:	dup
+   95:	checkcast	#138; //class java/lang/Long
+   98:	putstatic	#145; //Field __timeStamp:Ljava/lang/Long;
+   101:	pop
+   102:	new	#138; //class java/lang/Long
+   105:	dup
+   106:	ldc2_w	#146; //long 0l
+   109:	invokespecial	#143; //Method java/lang/Long."<init>":(J)V
+   112:	dup
+   113:	checkcast	#138; //class java/lang/Long
+   116:	putstatic	#149; //Field __timeStamp__239_neverHappen1213229281504:Ljava/lang/Long;
+   119:	pop
+   120:	return
+   121:	return
+
+java.lang.Object super$3$getProperty(java.lang.String);
+  Code:
+   Stack=2, Locals=2, Args_size=2
+   0:	aload_0
+   1:	aload_1
+   2:	invokespecial	#153; //Method groovy/lang/Script.getProperty:(Ljava/lang/String;)Ljava/lang/Object;
+   5:	areturn
+
+java.lang.String super$1$toString();
+  Code:
+   Stack=1, Locals=1, Args_size=1
+   0:	aload_0
+   1:	invokespecial	#158; //Method java/lang/Object.toString:()Ljava/lang/String;
+   4:	areturn
+
+void super$3$setProperty(java.lang.String, java.lang.Object);
+  Code:
+   Stack=3, Locals=3, Args_size=3
+   0:	aload_0
+   1:	aload_1
+   2:	aload_2
+   3:	invokespecial	#162; //Method groovy/lang/Script.setProperty:(Ljava/lang/String;Ljava/lang/Object;)V
+   6:	return
+
+void super$1$notify();
+  Code:
+   Stack=1, Locals=1, Args_size=1
+   0:	aload_0
+   1:	invokespecial	#166; //Method java/lang/Object.notify:()V
+   4:	return
+
+void super$3$println();
+  Code:
+   Stack=1, Locals=1, Args_size=1
+   0:	aload_0
+   1:	invokespecial	#169; //Method groovy/lang/Script.println:()V
+   4:	return
+
+void super$1$notifyAll();
+  Code:
+   Stack=1, Locals=1, Args_size=1
+   0:	aload_0
+   1:	invokespecial	#173; //Method java/lang/Object.notifyAll:()V
+   4:	return
+
+void super$3$print(java.lang.Object);
+  Code:
+   Stack=2, Locals=2, Args_size=2
+   0:	aload_0
+   1:	aload_1
+   2:	invokespecial	#178; //Method groovy/lang/Script.print:(Ljava/lang/Object;)V
+   5:	return
+
+java.lang.Object super$1$clone();
+  Code:
+   Stack=1, Locals=1, Args_size=1
+   0:	aload_0
+   1:	invokespecial	#182; //Method java/lang/Object.clone:()Ljava/lang/Object;
+   4:	areturn
+
+java.lang.Object super$3$evaluate(java.lang.String);
+  Code:
+   Stack=2, Locals=2, Args_size=2
+   0:	aload_0
+   1:	aload_1
+   2:	invokespecial	#186; //Method groovy/lang/Script.evaluate:(Ljava/lang/String;)Ljava/lang/Object;
+   5:	areturn
+
+void super$1$wait();
+  Code:
+   Stack=1, Locals=1, Args_size=1
+   0:	aload_0
+   1:	invokespecial	#190; //Method java/lang/Object.wait:()V
+   4:	return
+
+groovy.lang.MetaClass super$2$getMetaClass();
+  Code:
+   Stack=1, Locals=1, Args_size=1
+   0:	aload_0
+   1:	invokespecial	#197; //Method groovy/lang/GroovyObjectSupport.getMetaClass:()Lgroovy/lang/MetaClass;
+   4:	areturn
+
+void super$1$wait(long, int);
+  Code:
+   Stack=4, Locals=4, Args_size=3
+   0:	aload_0
+   1:	lload_1
+   2:	iload_3
+   3:	invokespecial	#200; //Method java/lang/Object.wait:(JI)V
+   6:	return
+
+void super$2$setMetaClass(groovy.lang.MetaClass);
+  Code:
+   Stack=2, Locals=2, Args_size=2
+   0:	aload_0
+   1:	aload_1
+   2:	invokespecial	#205; //Method groovy/lang/GroovyObjectSupport.setMetaClass:(Lgroovy/lang/MetaClass;)V
+   5:	return
+
+java.lang.Class super$1$getClass();
+  Code:
+   Stack=1, Locals=1, Args_size=1
+   0:	aload_0
+   1:	invokespecial	#210; //Method java/lang/Object.getClass:()Ljava/lang/Class;
+   4:	areturn
+
+groovy.lang.Binding super$3$getBinding();
+  Code:
+   Stack=1, Locals=1, Args_size=1
+   0:	aload_0
+   1:	invokespecial	#215; //Method groovy/lang/Script.getBinding:()Lgroovy/lang/Binding;
+   4:	areturn
+
+void super$1$finalize();
+  Code:
+   Stack=1, Locals=1, Args_size=1
+   0:	aload_0
+   1:	invokespecial	#219; //Method java/lang/Object.finalize:()V
+   4:	return
+
+void super$3$setBinding(groovy.lang.Binding);
+  Code:
+   Stack=2, Locals=2, Args_size=2
+   0:	aload_0
+   1:	aload_1
+   2:	invokespecial	#222; //Method groovy/lang/Script.setBinding:(Lgroovy/lang/Binding;)V
+   5:	return
+
+void super$1$wait(long);
+  Code:
+   Stack=3, Locals=3, Args_size=2
+   0:	aload_0
+   1:	lload_1
+   2:	invokespecial	#224; //Method java/lang/Object.wait:(J)V
+   5:	return
+
+void super$3$run(java.io.File, java.lang.String[]);
+  Code:
+   Stack=3, Locals=3, Args_size=3
+   0:	aload_0
+   1:	aload_1
+   2:	aload_2
+   3:	invokespecial	#228; //Method groovy/lang/Script.run:(Ljava/io/File;[Ljava/lang/String;)V
+   6:	return
+
+java.lang.Object super$3$evaluate(java.io.File);
+  Code:
+   Stack=2, Locals=2, Args_size=2
+   0:	aload_0
+   1:	aload_1
+   2:	invokespecial	#231; //Method groovy/lang/Script.evaluate:(Ljava/io/File;)Ljava/lang/Object;
+   5:	areturn
+
+void super$3$println(java.lang.Object);
+  Code:
+   Stack=2, Locals=2, Args_size=2
+   0:	aload_0
+   1:	aload_1
+   2:	invokespecial	#233; //Method groovy/lang/Script.println:(Ljava/lang/Object;)V
+   5:	return
+
+boolean super$1$equals(java.lang.Object);
+  Code:
+   Stack=2, Locals=2, Args_size=2
+   0:	aload_0
+   1:	aload_1
+   2:	invokespecial	#238; //Method java/lang/Object.equals:(Ljava/lang/Object;)Z
+   5:	ireturn
+
+java.lang.Object super$3$invokeMethod(java.lang.String, java.lang.Object);
+  Code:
+   Stack=3, Locals=3, Args_size=3
+   0:	aload_0
+   1:	aload_1
+   2:	aload_2
+   3:	invokespecial	#243; //Method groovy/lang/Script.invokeMethod:(Ljava/lang/String;Ljava/lang/Object;)Ljava/lang/Object;
+   6:	areturn
+
+int super$1$hashCode();
+  Code:
+   Stack=1, Locals=1, Args_size=1
+   0:	aload_0
+   1:	invokespecial	#248; //Method java/lang/Object.hashCode:()I
+   4:	ireturn
+
+static java.lang.Class class$(java.lang.String);
+  Code:
+   Stack=3, Locals=2, Args_size=1
+   0:	aload_0
+   1:	invokestatic	#253; //Method java/lang/Class.forName:(Ljava/lang/String;)Ljava/lang/Class;
+   4:	areturn
+   5:	astore_1
+   6:	new	#255; //class java/lang/NoClassDefFoundError
+   9:	dup
+   10:	aload_1
+   11:	invokevirtual	#260; //Method java/lang/ClassNotFoundException.getMessage:()Ljava/lang/String;
+   14:	invokespecial	#263; //Method java/lang/NoClassDefFoundError."<init>":(Ljava/lang/String;)V
+   17:	athrow
+  Exception table:
+   from   to  target type
+     0     5     5   Class java/lang/ClassNotFoundException
+
+  Synthetic: true
+
+}
+
