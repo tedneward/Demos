@@ -1,0 +1,6 @@
+def x = Nemerle.Collections.List.Map([1, 2, 3], fun (x) { 2 * x });
+assert (x == [2, 4, 6]);
+
+def y = Nemerle.Collections.List.FoldLeft(x, 0,
+          fun (val : int, acc) { acc + val });
+assert (y == 12);

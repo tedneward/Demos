@@ -1,0 +1,13 @@
+// Constructing a tuple of type int * int
+def t1 = (2, 3);
+
+// Deconstructing a tuple of type int * int
+def (x, y) = t1;
+
+assert (x == 2);
+assert (y == 3);
+
+
+def l1 = 1 :: [2];
+
+def l2 = [1, 2, 3];

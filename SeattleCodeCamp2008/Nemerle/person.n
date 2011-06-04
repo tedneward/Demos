@@ -1,0 +1,39 @@
+using System;
+
+class Person
+{
+    firstName : string;
+    lastName : string;
+    mutable age : int;
+    
+    public this(first : string, last : string, a : int)
+    {
+        firstName = first;
+        lastName = last;
+        age = a;
+    }
+    
+    public GetOlder(years : int) : void
+    {
+        age = age + years;
+    }
+    
+    override public ToString() : string
+    {
+        $"[Person: $firstName.Length $lastName ($age years old)]";
+    }
+    
+    public static @<<<< (lhs : Person, rhs : Person) : string
+    {
+        $"$(lhs.firstName) picks $(rhs.firstName)"
+    }
+}
+
+Console.WriteLine("Howdy, Nemerle!");
+def p = Person("Amanda", "Laucher", 27);
+Console.WriteLine("p = " + p.ToString());
+p.GetOlder(1);
+Console.WriteLine($"Happy Birthday, $p!");
+
+def q = Person("Ted", "Neward", 35);
+Console.WriteLine(p <<<< q);
