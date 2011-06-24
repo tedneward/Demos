@@ -1,0 +1,41 @@
+Compiled from "demo.groovy"
+public class Person extends java.lang.Object implements groovy.lang.GroovyObject{
+    transient groovy.lang.MetaClass metaClass;
+    public static java.lang.Long __timeStamp;
+    public static java.lang.Long __timeStamp__239_neverHappen1213229695223;
+    static java.lang.Class class$groovy$lang$MetaClass;
+    static java.lang.Class class$0;
+    static java.lang.Class class$java$lang$Exception;
+    static java.lang.Class class$java$lang$Object;
+    static java.lang.Class class$org$codehaus$groovy$runtime$ScriptBytecodeAdapter;
+    static java.lang.Class class$java$lang$String;
+    static java.lang.Class class$java$lang$Integer;
+    public Person(java.lang.String, java.lang.String, int);
+    public java.lang.Object setLastName(java.lang.Object);
+    public java.lang.String toString();
+    public groovy.lang.MetaClass getMetaClass();
+    public java.lang.Object invokeMethod(java.lang.String, java.lang.Object);
+    public java.lang.Object getProperty(java.lang.String);
+    public void setProperty(java.lang.String, java.lang.Object);
+    static {};
+    public java.lang.String getFirstName();
+    public void setFirstName(java.lang.String);
+    public int getAge();
+    public void setAge(int);
+    public java.lang.String getLastName();
+    public void setLastName(java.lang.String);
+    public void setMetaClass(groovy.lang.MetaClass);
+    void super$1$wait();
+    java.lang.String super$1$toString();
+    void super$1$wait(long);
+    void super$1$wait(long, int);
+    void super$1$notify();
+    void super$1$notifyAll();
+    java.lang.Class super$1$getClass();
+    boolean super$1$equals(java.lang.Object);
+    java.lang.Object super$1$clone();
+    int super$1$hashCode();
+    void super$1$finalize();
+    static java.lang.Class class$(java.lang.String);
+}
+

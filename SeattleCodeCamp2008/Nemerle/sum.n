@@ -1,0 +1,14 @@
+module Math {
+  public Main() : void {
+    def sum (x : int) : int {
+      if (x <= 0)
+        0
+      else
+        x + sum(x - 1)
+    }
+    
+    System.Console.WriteLine("Sum of 20 to 0 is " + sum(20).ToString());
+    
+    def y = if (sum(20) > 100) { "It's a big number" } else { () }
+  }
+}

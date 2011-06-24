@@ -1,0 +1,19 @@
+using SC = System.Console;
+
+module Functions
+{
+    public f(x : int) : int
+    {
+        x * 2
+    }
+    
+    public run_fun_twice(f : int -> int, v : int) : int
+    {
+        f(f(v))
+    }
+    
+    public static Main() : void
+    {
+        SC.WriteLine("running f twice yields {0}", run_fun_twice(f, 4))
+    }
+}
