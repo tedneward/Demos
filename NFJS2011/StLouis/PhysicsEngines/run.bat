@@ -1,0 +1,1 @@
+java -classpath phys2d.jar;phys2d-test.jar net.phys2d.raw.test.DemoBox
