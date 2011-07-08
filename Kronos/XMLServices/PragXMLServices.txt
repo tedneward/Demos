@@ -1,0 +1,81 @@
+
+	   WS-*			CORBA			REST			R-O
+Transport: HTTP			TCP/IP			TCP/IP (HTTP)		HTTP
+Exchange: request/response	request/response	request/response	req/resp
+Format: XML			binary (IIOP)		* (HTTP)		XML
+
+	RSS/Atom	OData			XMPP
+T:	HTTP		HTTP			HTTP
+E:	req/resp	req/resp		*
+F:	RSS(XML)	OData(Atom(XML))	XML
+
+rpc/encoded
+document/literal
+
+
+
+@WebService
+class PaymentProcessor
+{
+	@WebMethod
+	public PaymentResult takePayment(Account to, 
+		Bundle goods, Price amt);
+}
+
+
+class Pet
+{
+	string name;
+}
+class Person
+{
+	string firstName;
+	Person spouse;
+}
+Person ted = new Person();
+ted.firstName = "Ted";
+Person charlotte = new Person();
+charlotte.firstName = "Charlotte";
+charlotte.spouse = ted;
+ted.spouse = charlotte;
+
+
+<!-- OLD 
+<Envelope>
+<Header>
+	...
+</Header>
+<Body>
+<Person xmlns:xsd="http://www.tedneward.com/specs/Person.xsd" id="#1">
+	<firstName>Ted</firstName>
+	<spouse href="#2" />
+</Person>
+<Person id="#2">
+	<firstName>Charlotte</firstName>
+	<spouse href="#3" />
+</Person>
+<Pet id="#3">
+	<name>Mr. Fluff-Fluff</name>
+</Pet>
+</Body>
+</Envelope>
+  -->
+
+<Envelope>
+<Header>
+	<!-- WS-Addressing -->
+	<To>mailto:ted@tedneward.com</To>
+	<From>http://www.amazon.com/endpoint/bookservice</From>
+</Header>
+<Body></Body>
+</Envelope>
+
+
+
+
+
+
+
+
+
+
