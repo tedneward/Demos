@@ -1,0 +1,17 @@
+{
+  "name": "sample-app",
+  "version": "0.0.1",
+  "description": "Sample application for VSLive",
+  "private": true,
+  "main": "app.js",
+  "dependencies": {
+    "debug": "^2.2.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "prod": "node app.js",
+    "test": "DEBUG=* node --debug app.js"
+  },
+  "author": "Ted Neward",
+  "license": "ISC"
+}
