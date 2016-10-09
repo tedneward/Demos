@@ -1,0 +1,14 @@
+{
+  "name": "hello",
+  "version": "0.0.1",
+  "description": "",
+  "main": "hello.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Me",
+  "license": "MIT",
+  "dependencies": {
+    "debug": "^2.2.0"
+  }
+}
