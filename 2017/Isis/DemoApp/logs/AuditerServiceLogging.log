@@ -1,0 +1,6 @@
+2017-10-12 10:21:11.388 118815e4-d151-4794-ba56-c46476ef9c92,0: demoapp.HelloWorldObject:0 by sven, name: [NEW] -> Foo
+2017-10-12 10:21:11.388 118815e4-d151-4794-ba56-c46476ef9c92,0: demoapp.HelloWorldObject:0 by sven, notes: [NEW] -> null
+2017-10-12 10:21:20.669 39aa4a5c-6acf-4b7e-8237-9591db0dec95,0: demoapp.HelloWorldObject:0 by sven, notes: null -> This is a note
+2017-10-12 10:21:25.279 70f9d3f0-dcc1-4f2f-83d9-dbf01a48ed7c,0: demoapp.HelloWorldObject:0 by sven, name: Foo -> Foobar
+2017-10-12 10:22:36.428 e0762050-2f66-4f3a-b698-8b40233aa135,0: demoapp.HelloWorldObject:1 by sven, name: [NEW] -> Bar
+2017-10-12 10:22:36.428 e0762050-2f66-4f3a-b698-8b40233aa135,0: demoapp.HelloWorldObject:1 by sven, notes: [NEW] -> null

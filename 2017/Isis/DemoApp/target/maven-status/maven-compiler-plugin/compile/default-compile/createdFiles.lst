@@ -1,0 +1,7 @@
+domainapp/dom/HelloWorldModule.class
+domainapp/dom/impl/QHelloWorldObject.class
+domainapp/dom/impl/HelloWorldObjects.class
+domainapp/application/HelloWorldAppManifest.class
+domainapp/webapp/HelloWorldApplication.class
+domainapp/webapp/HelloWorldApplication$1.class
+domainapp/dom/impl/HelloWorldObject.class

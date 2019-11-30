@@ -1,0 +1,33 @@
+2017-10-12 10:21:25.215 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ixn:interactionDto xmlns:com="http://isis.apache.org/schema/common" xmlns:cmd="http://isis.apache.org/schema/cmd" xmlns:ixn="http://isis.apache.org/schema/ixn">
+    <ixn:majorVersion>1</ixn:majorVersion>
+    <ixn:minorVersion>0</ixn:minorVersion>
+    <ixn:transactionId>70f9d3f0-dcc1-4f2f-83d9-dbf01a48ed7c</ixn:transactionId>
+    <ixn:execution xsi:type="ixn:actionInvocationDto" interactionType="action_invocation" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+        <ixn:sequence>0</ixn:sequence>
+        <ixn:target type="demoapp.HelloWorldObject" id="0"/>
+        <ixn:logicalMemberIdentifier>demoapp.HelloWorldObject#updateName()</ixn:logicalMemberIdentifier>
+        <ixn:memberIdentifier>domainapp.dom.impl.HelloWorldObject#updateName()</ixn:memberIdentifier>
+        <ixn:user>sven</ixn:user>
+        <ixn:title>demoapp.HelloWorldObject:0: updateName()</ixn:title>
+        <ixn:metrics>
+            <ixn:timings>
+                <com:startedAt>2017-10-12T10:21:25.181+01:00</com:startedAt>
+                <com:completedAt>2017-10-12T10:21:25.181+01:00</com:completedAt>
+            </ixn:timings>
+            <ixn:objectCounts>
+                <ixn:loaded before="1" after="1"/>
+                <ixn:dirtied before="0" after="1"/>
+            </ixn:objectCounts>
+        </ixn:metrics>
+        <ixn:parameters>
+            <cmd:parameter name="Name" type="string" null="false">
+                <com:string>Foobar</com:string>
+            </cmd:parameter>
+        </ixn:parameters>
+        <ixn:returned type="reference" null="false">
+            <com:reference type="demoapp.HelloWorldObject" id="0"/>
+        </ixn:returned>
+    </ixn:execution>
+</ixn:interactionDto>
+
